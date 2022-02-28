@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE096C627CD65C8004B682B /* TabletopConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE096C527CD65C8004B682B /* TabletopConnectApp.swift */; };
+		1EE096C827CD65C8004B682B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE096C727CD65C8004B682B /* ContentView.swift */; };
+		1EE096CA27CD65CA004B682B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE096C927CD65CA004B682B /* Assets.xcassets */; };
+		1EE096CD27CD65CA004B682B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE096CC27CD65CA004B682B /* Preview Assets.xcassets */; };
+		1EE096CF27CD65CA004B682B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE096CE27CD65CA004B682B /* Persistence.swift */; };
+		1EE096D227CD65CA004B682B /* TabletopConnect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EE096D027CD65CA004B682B /* TabletopConnect.xcdatamodeld */; };
+		1EE096DC27CD65CA004B682B /* TabletopConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE096DB27CD65CA004B682B /* TabletopConnectTests.swift */; };
+		1EE096E627CD65CA004B682B /* TabletopConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE096E527CD65CA004B682B /* TabletopConnectUITests.swift */; };
+		1EE096E827CD65CA004B682B /* TabletopConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE096E727CD65CA004B682B /* TabletopConnectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EE096D827CD65CA004B682B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EE096BA27CD65C8004B682B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EE096C127CD65C8004B682B;
+			remoteInfo = TabletopConnect;
+		};
+		1EE096E227CD65CA004B682B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EE096BA27CD65C8004B682B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EE096C127CD65C8004B682B;
+			remoteInfo = TabletopConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EE096C227CD65C8004B682B /* TabletopConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabletopConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE096C527CD65C8004B682B /* TabletopConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletopConnectApp.swift; sourceTree = "<group>"; };
+		1EE096C727CD65C8004B682B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1EE096C927CD65CA004B682B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EE096CC27CD65CA004B682B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EE096CE27CD65CA004B682B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1EE096D127CD65CA004B682B /* TabletopConnect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TabletopConnect.xcdatamodel; sourceTree = "<group>"; };
+		1EE096D727CD65CA004B682B /* TabletopConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletopConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE096DB27CD65CA004B682B /* TabletopConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletopConnectTests.swift; sourceTree = "<group>"; };
+		1EE096E127CD65CA004B682B /* TabletopConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletopConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE096E527CD65CA004B682B /* TabletopConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletopConnectUITests.swift; sourceTree = "<group>"; };
+		1EE096E727CD65CA004B682B /* TabletopConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletopConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EE096BF27CD65C8004B682B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE096D427CD65CA004B682B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE096DE27CD65CA004B682B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE096B927CD65C8004B682B = {
+			isa = PBXGroup;
+			children = (
+				1EE096C427CD65C8004B682B /* TabletopConnect */,
+				1EE096DA27CD65CA004B682B /* TabletopConnectTests */,
+				1EE096E427CD65CA004B682B /* TabletopConnectUITests */,
+				1EE096C327CD65C8004B682B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EE096C327CD65C8004B682B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EE096C227CD65C8004B682B /* TabletopConnect.app */,
+				1EE096D727CD65CA004B682B /* TabletopConnectTests.xctest */,
+				1EE096E127CD65CA004B682B /* TabletopConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EE096C427CD65C8004B682B /* TabletopConnect */ = {
+			isa = PBXGroup;
+			children = (
+				1EE096C527CD65C8004B682B /* TabletopConnectApp.swift */,
+				1EE096C727CD65C8004B682B /* ContentView.swift */,
+				1EE096C927CD65CA004B682B /* Assets.xcassets */,
+				1EE096CE27CD65CA004B682B /* Persistence.swift */,
+				1EE096D027CD65CA004B682B /* TabletopConnect.xcdatamodeld */,
+				1EE096CB27CD65CA004B682B /* Preview Content */,
+			);
+			path = TabletopConnect;
+			sourceTree = "<group>";
+		};
+		1EE096CB27CD65CA004B682B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1EE096CC27CD65CA004B682B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EE096DA27CD65CA004B682B /* TabletopConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EE096DB27CD65CA004B682B /* TabletopConnectTests.swift */,
+			);
+			path = TabletopConnectTests;
+			sourceTree = "<group>";
+		};
+		1EE096E427CD65CA004B682B /* TabletopConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EE096E527CD65CA004B682B /* TabletopConnectUITests.swift */,
+				1EE096E727CD65CA004B682B /* TabletopConnectUITestsLaunchTests.swift */,
+			);
+			path = TabletopConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EE096C127CD65C8004B682B /* TabletopConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE096EB27CD65CA004B682B /* Build configuration list for PBXNativeTarget "TabletopConnect" */;
+			buildPhases = (
+				1EE096BE27CD65C8004B682B /* Sources */,
+				1EE096BF27CD65C8004B682B /* Frameworks */,
+				1EE096C027CD65C8004B682B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabletopConnect;
+			productName = TabletopConnect;
+			productReference = 1EE096C227CD65C8004B682B /* TabletopConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EE096D627CD65CA004B682B /* TabletopConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE096EE27CD65CA004B682B /* Build configuration list for PBXNativeTarget "TabletopConnectTests" */;
+			buildPhases = (
+				1EE096D327CD65CA004B682B /* Sources */,
+				1EE096D427CD65CA004B682B /* Frameworks */,
+				1EE096D527CD65CA004B682B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EE096D927CD65CA004B682B /* PBXTargetDependency */,
+			);
+			name = TabletopConnectTests;
+			productName = TabletopConnectTests;
+			productReference = 1EE096D727CD65CA004B682B /* TabletopConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EE096E027CD65CA004B682B /* TabletopConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE096F127CD65CA004B682B /* Build configuration list for PBXNativeTarget "TabletopConnectUITests" */;
+			buildPhases = (
+				1EE096DD27CD65CA004B682B /* Sources */,
+				1EE096DE27CD65CA004B682B /* Frameworks */,
+				1EE096DF27CD65CA004B682B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EE096E327CD65CA004B682B /* PBXTargetDependency */,
+			);
+			name = TabletopConnectUITests;
+			productName = TabletopConnectUITests;
+			productReference = 1EE096E127CD65CA004B682B /* TabletopConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EE096BA27CD65C8004B682B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1EE096C127CD65C8004B682B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					1EE096D627CD65CA004B682B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1EE096C127CD65C8004B682B;
+					};
+					1EE096E027CD65CA004B682B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1EE096C127CD65C8004B682B;
+					};
+				};
+			};
+			buildConfigurationList = 1EE096BD27CD65C8004B682B /* Build configuration list for PBXProject "TabletopConnect" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EE096B927CD65C8004B682B;
+			productRefGroup = 1EE096C327CD65C8004B682B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EE096C127CD65C8004B682B /* TabletopConnect */,
+				1EE096D627CD65CA004B682B /* TabletopConnectTests */,
+				1EE096E027CD65CA004B682B /* TabletopConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EE096C027CD65C8004B682B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE096CD27CD65CA004B682B /* Preview Assets.xcassets in Resources */,
+				1EE096CA27CD65CA004B682B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE096D527CD65CA004B682B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE096DF27CD65CA004B682B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE096BE27CD65C8004B682B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE096CF27CD65CA004B682B /* Persistence.swift in Sources */,
+				1EE096D227CD65CA004B682B /* TabletopConnect.xcdatamodeld in Sources */,
+				1EE096C827CD65C8004B682B /* ContentView.swift in Sources */,
+				1EE096C627CD65C8004B682B /* TabletopConnectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE096D327CD65CA004B682B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE096DC27CD65CA004B682B /* TabletopConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE096DD27CD65CA004B682B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE096E827CD65CA004B682B /* TabletopConnectUITestsLaunchTests.swift in Sources */,
+				1EE096E627CD65CA004B682B /* TabletopConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EE096D927CD65CA004B682B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EE096C127CD65C8004B682B /* TabletopConnect */;
+			targetProxy = 1EE096D827CD65CA004B682B /* PBXContainerItemProxy */;
+		};
+		1EE096E327CD65CA004B682B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EE096C127CD65C8004B682B /* TabletopConnect */;
+			targetProxy = 1EE096E227CD65CA004B682B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE096E927CD65CA004B682B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EE096EA27CD65CA004B682B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE096EC27CD65CA004B682B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabletopConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = 26US2Y8838;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuxedoware.TabletopConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EE096ED27CD65CA004B682B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabletopConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = 26US2Y8838;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuxedoware.TabletopConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EE096EF27CD65CA004B682B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26US2Y8838;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuxedoware.TabletopConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabletopConnect.app/TabletopConnect";
+			};
+			name = Debug;
+		};
+		1EE096F027CD65CA004B682B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26US2Y8838;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuxedoware.TabletopConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabletopConnect.app/TabletopConnect";
+			};
+			name = Release;
+		};
+		1EE096F227CD65CA004B682B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26US2Y8838;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuxedoware.TabletopConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabletopConnect;
+			};
+			name = Debug;
+		};
+		1EE096F327CD65CA004B682B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26US2Y8838;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuxedoware.TabletopConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabletopConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EE096BD27CD65C8004B682B /* Build configuration list for PBXProject "TabletopConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE096E927CD65CA004B682B /* Debug */,
+				1EE096EA27CD65CA004B682B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE096EB27CD65CA004B682B /* Build configuration list for PBXNativeTarget "TabletopConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE096EC27CD65CA004B682B /* Debug */,
+				1EE096ED27CD65CA004B682B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE096EE27CD65CA004B682B /* Build configuration list for PBXNativeTarget "TabletopConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE096EF27CD65CA004B682B /* Debug */,
+				1EE096F027CD65CA004B682B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE096F127CD65CA004B682B /* Build configuration list for PBXNativeTarget "TabletopConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE096F227CD65CA004B682B /* Debug */,
+				1EE096F327CD65CA004B682B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1EE096D027CD65CA004B682B /* TabletopConnect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1EE096D127CD65CA004B682B /* TabletopConnect.xcdatamodel */,
+			);
+			currentVersion = 1EE096D127CD65CA004B682B /* TabletopConnect.xcdatamodel */;
+			path = TabletopConnect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1EE096BA27CD65C8004B682B /* Project object */;
+}
